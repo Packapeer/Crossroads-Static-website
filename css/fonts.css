@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-Regular.ttf');
+	/*src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueBold.woff2') format('woff2'),
+		url('../fonts/BebasNeueBold.woff') format('woff'),
+		url('../fonts/BebasNeueBold.ttf') format('truetype'),
+		url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');*/
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue Book';
+	src: url('../fonts/BebasNeue Book.ttf');
+/*	src: url('../fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueBook.woff2') format('woff2'),
+		url('../fonts/BebasNeueBook.woff') format('woff'),
+		url('../fonts/BebasNeueBook.ttf') format('truetype'),
+		url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-Regular.ttf');
+	/*src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/BebasNeueRegular.woff') format('woff'),
+		url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+		url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'COCOGOOSE';
+    src:url('../fonts/Cocogoose Pro-trial.ttf'); 
+        font-weight: normal;
+        font-style: normal;
+}
