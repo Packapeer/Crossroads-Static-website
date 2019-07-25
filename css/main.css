@@ -5263,7 +5263,9 @@ a.audio-control {
   display: block;
   width: 100%;
 }
-
+.price-points h3{
+  margin: 10px!important;
+}
 
 /* **************************************Responsive************************************** */
 
