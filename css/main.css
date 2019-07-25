@@ -17722,3 +17722,6 @@ input:focus::-ms-input-placeholder {
     top: -100px;
   }
 }
+.new-icon img{
+  max-width: 70px !important;
+}
