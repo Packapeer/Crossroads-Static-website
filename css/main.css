@@ -34,7 +34,9 @@ html {
 body {
   margin: 0
 }
-
+#gs{
+  display:none!important;
+}
 article,
 aside,
 details,
