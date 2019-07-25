@@ -202,7 +202,18 @@ https://github.com/ten1seven/jRespond
     matchHeight._afterUpdate = null;
     matchHeight._rows = _rows;
     matchHeight._parse = _parse;
-    matchHeight._parseOptions = _parseOptions;
+    matchHeight._parseOptions = _pars/*	$('a.need-help-email').click(function (e) {
+		e.preventDefault();
+		$(this).closest('.need-help').children('.overlay-email').fadeIn();
+	});
+	$('a.need-help-phone').click(function (e) {
+		e.preventDefault();
+		$(this).closest('.need-help').children('.overlay-phone').fadeIn();
+	});
+	$('.need-help a.close').click(function (e) {
+		e.preventDefault();
+		$('.need-help .overlay').fadeOut();
+	});*/eOptions;
 
     /*
     *  matchHeight._apply

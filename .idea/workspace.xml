@@ -58,6 +58,8 @@
       <find>Testimonials Block</find>
       <find>pricing-02</find>
       <find>gs</find>
+      <find>svg</find>
+      <find>need</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
