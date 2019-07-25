@@ -48,7 +48,7 @@ jQuery(document).ready(function ($) {
 	});
 
 	//SUPPORT FUNCTION
-/*	$('a.need-help-email').click(function (e) {
+	$('a.need-help-email').click(function (e) {
 		e.preventDefault();
 		$(this).closest('.need-help').children('.overlay-email').fadeIn();
 	});
@@ -59,6 +59,6 @@ jQuery(document).ready(function ($) {
 	$('.need-help a.close').click(function (e) {
 		e.preventDefault();
 		$('.need-help .overlay').fadeOut();
-	});*/
+	});
 	//END SUPPORT FUNCTION
 });
