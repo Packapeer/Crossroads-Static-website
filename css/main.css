@@ -17725,3 +17725,15 @@ input:focus::-ms-input-placeholder {
 .new-icon img{
   max-width: 70px !important;
 }
+.logo a{
+  text-decoration: none;
+  color: #f71b4a;
+  font-family: COCOGOOSE;
+}
+#menu-wrap .logo{
+  width: 450px;
+}
+#menu-wrap .logo a h1{
+  font-size: 1.7em;
+  margin-left: -92px;
+}
