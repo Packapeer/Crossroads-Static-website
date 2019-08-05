@@ -7637,7 +7637,7 @@ blockquote .quote-right {
 }
 
 .table-min-height {
-  min-height: 500px;
+  /*min-height: 500px;*/
   position: relative;
 }
 
@@ -7692,7 +7692,7 @@ blockquote .quote-right {
 #pricing-02 h3 {
   margin: 2em 0 1em;
   color: #d20229;
-  font-size: 1.8em;
+  font-size: 1.1em;
   font-weight: 400;
 }
 
@@ -7990,7 +7990,7 @@ blockquote .quote-right {
 
 @media only screen and (max-width: 1370px) {
   .table-min-height {
-    min-height: 640px;
+    /*min-height: 640px;*/
   }
 }
 
@@ -13424,7 +13424,7 @@ blockquote .quote-right {
   min-height: 32px;
   font-weight: 700;
   letter-spacing: 0.04em;
-  padding: 5px 0 5px 45px;
+  padding: 5px 0 5px 0px;
   margin-bottom: 10px;
 }
 
