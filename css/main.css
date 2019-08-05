@@ -3987,7 +3987,7 @@ Copyright 2015,
   .grid-12 {
     margin-left: 10px;
     margin-right: 10px;
-    float: left;
+    /*float: left;*/
   }
   .grid-10 {
     width: 580px;
