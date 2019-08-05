@@ -17753,3 +17753,6 @@ input:focus::-ms-input-placeholder {
 .logo2 h1{
   font-size: 48px;
 }
+#mobile-menu-trigger{
+  display: none;
+}
