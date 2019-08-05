@@ -14695,7 +14695,7 @@ blockquote .quote-right {
 }
 
 #burning-desire .content .text-box-3 {
-  width: 50%;
+  width: 100%;
 }
 
 #burning-desire .content .text-box-3 .text-padding {
@@ -14712,7 +14712,7 @@ blockquote .quote-right {
 }
 
 #burning-desire .content .icon-box {
-  width: 50%;
+  width: 25%;
   float: left;
   margin: 0 0 2em;
 }
@@ -17728,7 +17728,7 @@ input:focus::-ms-input-placeholder {
 }
 .logo a{
   text-decoration: none;
-  color: #f71b4a;
+  color: #bd1a20;
   font-family: COCOGOOSE;
 }
 #menu-wrap .logo{
@@ -17737,4 +17737,19 @@ input:focus::-ms-input-placeholder {
 #menu-wrap .logo a h1{
   font-size: 1.7em;
   margin-left: -92px;
+}
+
+@media only screen and (min-width: 648px){
+  #pricing-02{
+    width: 60%;
+    float: none;
+    margin: auto;
+  }
+}
+.image-box a img{
+  border: 2px solid;
+  border-radius: 21px;
+}
+.logo2 h1{
+  font-size: 48px;
 }
