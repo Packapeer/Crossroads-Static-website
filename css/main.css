@@ -17756,3 +17756,6 @@ input:focus::-ms-input-placeholder {
 #mobile-menu-trigger{
   display: none;
 }
+#many-more{
+    display: none;
+}
