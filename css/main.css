@@ -332,12 +332,12 @@ input[type=button] {
   border-radius: 4px;
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
-  background: url(../images/button.png?1298351022) repeat-x #ddd;
+ /* background: url(../images/button.png?1298351022) repeat-x #ddd;
   background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #fff), color-stop(100%, #ddd));
   background-image: -webkit-linear-gradient(#fff, #ddd);
   background-image: -moz-linear-gradient(#fff, #ddd);
   background-image: -o-linear-gradient(#fff, #ddd);
-  background-image: linear-gradient(#fff, #ddd);
+  background-image: linear-gradient(#fff, #ddd);*/
   border: 1px solid;
   border-color: #ddd #bbb #999;
   cursor: pointer;
@@ -392,6 +392,7 @@ input[type=button]::-moz-focus-inner {
   padding: 0
 }
 
+/*
 input[type=search],
 input[type=datetime],
 input[type=datetime-local],
@@ -451,6 +452,7 @@ select[disabled],
 textarea[disabled] {
   background-color: #eee
 }
+*/
 
 a.button_disabled,
 button[disabled],
@@ -469,6 +471,7 @@ textarea[disabled] {
   color: #888;
   cursor: default
 }
+/*
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -479,6 +482,7 @@ input:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #888
 }
+*/
 
 input.placeholder_text,
 textarea.placeholder_text {
@@ -17762,4 +17766,11 @@ input:focus::-ms-input-placeholder {
 
 .enroll{
   margin: 15px;
+}
+
+.modal-backdrop{
+  display: none;
+}
+#menu-wrap .logo a h1{
+  margin-left: 0 !important;
 }

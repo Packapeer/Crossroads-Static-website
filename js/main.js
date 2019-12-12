@@ -39,13 +39,13 @@ jQuery(document).ready(function ($) {
 	$(window).resize(function (e) {
 		$('#intro').css('padding-top', $('.fixed-header').height() + 20);
 	});
-	$('.scroller').click(function (e) {
+	/*$('.scroller').click(function (e) {
 		e.preventDefault();
 		var target = $(this).attr('href');
 		$('html,body').animate({
 			scrollTop: $(target).offset().top - 99
 		}, 1000);
-	});
+	});*/
 
 	//SUPPORT FUNCTION
 	$('a.need-help-email').click(function (e) {
