@@ -14712,7 +14712,7 @@ blockquote .quote-right {
 }
 
 #burning-desire .content .icon-box {
-  width: 25%;
+  width: 50%;
   float: left;
   margin: 0 0 2em;
 }
@@ -17758,4 +17758,8 @@ input:focus::-ms-input-placeholder {
 }
 #many-more{
     display: none;
+}
+
+.enroll{
+  margin: 15px;
 }
