@@ -5611,7 +5611,7 @@ a.audio-control {
   float: left;
   padding: 0 1em;
   position: relative;
-  max-width: 375px;
+  max-width: 300px;
   margin: 0;
   width: 100%;
 }

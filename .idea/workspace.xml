@@ -2,151 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e1676e-9209-413a-a7d5-5502a7d84ca6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/success/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/event.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/flexslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/plugins/streamline-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/mint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/css/themes/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfonte0a5.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfonte0a5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfonte0a5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfonte0a5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/fontawesome-webfonte0a5.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/streamline.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/streamline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/streamline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/streamline.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/fonts/streamlined41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/avatar_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/back_to_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/bg_direction_nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-featured.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/blog-thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/customer-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/customer-img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/email-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/event-logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/event-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/footer_bg_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/gallery_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/gallery_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/gallery_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/gallery_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/gallery_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/header_graphic_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/header_graphic_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/hotel_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/hotel_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/hotel_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/img_place_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/location-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/parallax-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/slider-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/sponsor_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/sponsor_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/sponsor_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/sponsor_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/video_thumb_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/video_thumb_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/video_thumb_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/images/video_thumb_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/config/gulp.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/config/gulp.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/config/gulp.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/css/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/css/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/css/icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/css/simpleToast.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/css/simpleToast.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/js/simpleToast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/dist/js/simpleToast.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/js/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/js/bscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/js/mobileLayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/js/jquery.simpleToast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/js/simpleToast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/core/_function.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/core/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/jquery.simpleToast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/alert/src/sass/simpleToast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/includes/contact_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/includes/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/includes/subscribe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/modernizr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/appear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/count-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/directions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/flexslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/google-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/infobox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/pace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/style-switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/js/plugins/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -159,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="336" column="56" lean-forward="true" selection-start-line="336" selection-start-column="56" selection-end-line="336" selection-end-column="56" />
+            <state relative-caret-position="226">
+              <caret line="5617" lean-forward="true" selection-start-line="5617" selection-end-line="5617" />
             </state>
           </provider>
         </entry>
@@ -171,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-395">
-              <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+            <state relative-caret-position="235">
+              <caret line="1951" column="18" lean-forward="true" selection-start-line="1951" selection-start-column="18" selection-end-line="1951" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -191,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/Accountability-System.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -270,6 +126,7 @@
       <find>enroll now</find>
       <find>#burning-desire .content .icon-box</find>
       <find>Reserve</find>
+      <find>wisdom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,8 +138,8 @@
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/js/plugins.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -413,12 +270,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65100000" />
+    <option name="totallyTimeSpent" value="65368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="699" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21146686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21146686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,7 +287,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3197158" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3197158" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -491,17 +349,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="336" column="56" lean-forward="true" selection-start-line="336" selection-start-column="56" selection-end-line="336" selection-end-column="56" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/Accountability-System.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+        <state relative-caret-position="235">
+          <caret line="1951" column="18" lean-forward="true" selection-start-line="1951" selection-start-column="18" selection-end-line="1951" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -519,8 +373,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/Accountability-System.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="5617" lean-forward="true" selection-start-line="5617" selection-end-line="5617" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
