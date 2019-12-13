@@ -4469,7 +4469,7 @@ p {
 #menu-wrap {
   background: #eff1f2;
   position: relative;
-  z-index: 1;
+  z-index: 5000;
 }
 
 #menu-wrap .logo {
@@ -5611,7 +5611,7 @@ a.audio-control {
   float: left;
   padding: 0 1em;
   position: relative;
-  max-width: 300px;
+  max-width: 33%;
   margin: 0;
   width: 100%;
 }
@@ -17764,13 +17764,39 @@ input:focus::-ms-input-placeholder {
     display: none;
 }
 
-.enroll{
+/*.enroll{
   margin: 15px;
-}
+}*/
 
 .modal-backdrop{
   display: none;
 }
 #menu-wrap .logo a h1{
   margin-left: 0 !important;
+}
+.error{
+  color:  #c50c23 !important;
+}
+#register-now-label{
+  width: 100%;
+}
+#footer{
+  text-align: center;
+}
+.copyright{
+  float: none!important;
+}
+#before-you-join .text-box-2{
+  text-align: center;
+}
+
+.logo h1{
+
+  color: #bd1a20;
+  font-family: COCOGOOSE;
+
+}
+
+.logo a{
+  text-decoration: none!important;
 }
