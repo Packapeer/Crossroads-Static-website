@@ -17800,3 +17800,16 @@ input:focus::-ms-input-placeholder {
 .logo a{
   text-decoration: none!important;
 }
+.weekly-modules-title h3{
+ text-align: center;
+}
+h3.you-get{
+  text-align: center;
+}
+.logo2 h1{
+  font-size: 37px;
+
+}
+#first-oac p.big{
+  font-size: 1.20em;
+}
