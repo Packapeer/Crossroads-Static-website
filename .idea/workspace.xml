@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="17806" column="20" selection-start-line="17806" selection-start-column="20" selection-end-line="17806" selection-end-column="20" />
+            <state relative-caret-position="271">
+              <caret line="17816" column="15" selection-start-line="17816" selection-start-column="15" selection-end-line="17816" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="24" />
+            <state relative-caret-position="205">
+              <caret line="389" lean-forward="true" selection-start-line="389" selection-end-line="389" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -128,8 +128,9 @@
       <find>Reserve</find>
       <find>wisdom</find>
       <find>logo logo</find>
-      <find>#menu-wrap</find>
       <find>logo</find>
+      <find>#menu-wrap</find>
+      <find>a world</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -253,12 +254,12 @@
       <workItem from="1564983360615" duration="9005000" />
       <workItem from="1565016107524" duration="12830000" />
       <workItem from="1576002789304" duration="238000" />
-      <workItem from="1576230336310" duration="3702000" />
+      <workItem from="1576230336310" duration="4325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69963000" />
+    <option name="totallyTimeSpent" value="70586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="699" extended-state="6" />
@@ -342,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="24" />
+        <state relative-caret-position="205">
+          <caret line="389" lean-forward="true" selection-start-line="389" selection-end-line="389" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -363,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17806" column="20" selection-start-line="17806" selection-start-column="20" selection-end-line="17806" selection-end-column="20" />
+        <state relative-caret-position="271">
+          <caret line="17816" column="15" selection-start-line="17816" selection-start-column="15" selection-end-line="17816" selection-end-column="15" />
         </state>
       </provider>
     </entry>
