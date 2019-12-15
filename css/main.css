@@ -4549,7 +4549,7 @@ p {
     display: block;
   }
   #menu-wrap nav ul {
-    display: none;
+    /*display: none;*/
   }
 }
 
@@ -17748,6 +17748,25 @@ input:focus::-ms-input-placeholder {
     width: 60%;
     float: none;
     margin: auto;
+  }
+
+}
+@media only screen and (max-width: 648px){
+  #menu-wrap .logo{
+    width: auto;
+    float: left;
+  }
+  li.enroll{
+    font-size: 10px;
+  }
+  #menu-wrap nav ul{
+    display: block !important;
+  }
+  #menu-wrap .logo a h1{
+    font-size: 1.2em;
+  }
+  #menu-wrap nav ul{
+    margin: 5px;
   }
 }
 .image-box a img{
