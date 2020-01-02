@@ -17779,9 +17779,6 @@ input:focus::-ms-input-placeholder {
 #mobile-menu-trigger{
   display: none;
 }
-#many-more{
-    display: none;
-}
 
 /*.enroll{
   margin: 15px;
@@ -17834,4 +17831,8 @@ h3.you-get{
 }
 #weekly-modules .module-2 .image-box .second{
   bottom: 100px;
+}
+.many-more-wrap{
+  height: 300px;
+  overflow: auto;
 }
