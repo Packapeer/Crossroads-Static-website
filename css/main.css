@@ -15853,7 +15853,7 @@ blockquote .quote-right {
 #footer {
   background: #273038;
   color: #838e98;
-  padding: 4.875em 0;
+  padding: 1em 0 0.5em 0;
   letter-spacing: 0.04em;
 }
 
@@ -17333,7 +17333,7 @@ blockquote .quote-right {
 }
 
 #weekly-modules .module-5 {
-  background: #fff;
+  background: #ececec;
   padding-bottom: 2em;
 }
 
@@ -17849,4 +17849,14 @@ h3.you-get{
 .many-more-wrap{
   height: 300px;
   overflow: auto;
+}
+
+.text-deco{
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-deco:hover{
+  color:inherit;
+  text-decoration: none;
 }
