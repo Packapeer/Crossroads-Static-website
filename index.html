@@ -137,6 +137,28 @@
     message.</a>
 </div>
 <![endif]-->
+
+<!-- Modal -->
+<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         ...
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Save changes</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
 <div class="fixed-header">
    <!-- ** Bonus Expires Section ** -->
    <div class="bonus-expires-section">
@@ -184,123 +206,11 @@
                <li><a href="#many-more" class="scroller">testimonials</a></li>
                <li><a href="#burning-desire" class="scroller">what you'll get</a></li>
                <li><a href="#faq" class="scroller">faq's</a></li>-->
-               <li class="enroll"><a href="#" data-toggle="modal" data-target="#register-now" class="scroller">enroll
+               <li class="enroll"><a onclick="paymentprocess()" >enroll
                    now</a></li>
            </ul>
        </nav>
-       <div class="modal fade" id="register-now" tabindex="-1" role="dialog" aria-labelledby="register-now-label">
-           <div class="modal-dialog modal-md" role="document">
-               <div class="modal-content">
-                   <div class="modal-header">
-                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                               aria-hidden="true">&times;</span></button>
-                       <h4 class="modal-title text-center" id="register-now-label">Workshop Registration
-                       </h4>
-                   </div>
-                   <div class="modal-body">
-                       <div class="registration-form">
-
-                           <form name="Register" method="POST" id="register_form">
-                               <div class="row">
-                                   <div class="col-sm-12">
-                                       <div class="form-group">
-                                           <label>Full Name</label>
-                                           <input type="text" class="form-control" name="Name" placeholder="Full Name"
-                                                  required>
-                                       </div>
-                                   </div>
-
-                               </div>
-                               <div class="form-group">
-                                   <label>Mobile</label>
-                                   <input type="tel" class="form-control" name="Mobile" placeholder="Mobile" required>
-                               </div>
-                               <div class="form-group">
-                                   <label>Email ID</label>
-                                   <input type="email" class="form-control" name="Email" placeholder="Email Address"
-                                          required>
-                               </div>
-                               <div class="form-group">
-                                   <label for="Male">Male</label>
-                                   <input value="Male" type="radio" name="Gender" id="Male" required>
-                                   <label for="Female">Female</label>
-                                   <input value="Female" type="radio" name="Gender" id="Female" required>
-                               </div>
-                               <div class="row">
-                                   <div class="col-sm-7">
-                                       <div class="form-group">
-                                           <label>Qualification</label>
-                                           <select class="form-control" name="Qualification" required>
-                                               <option value="">Choose...</option>
-                                               <option value="B.Tech">B.Tech</option>
-                                               <option value="M.Tech">M.Tech</option>
-                                               <option value="BCA/MCA">BCA/MCA</option>
-                                               <option value="Bsc/Msc">Bsc/Msc</option>
-                                               <option value="Diploma">Diploma</option>
-                                               <option value="Other">Other</option>
-                                           </select>
-                                       </div>
-                                   </div>
-                                   <div class="col-sm-5">
-                                       <div class="form-group">
-                                           <label>Year of Graduation</label>
-                                           <input type="Text" class="form-control" name="Year_Graduation"
-                                                  placeholder="Year of Graduation" required>
-                                       </div>
-                                   </div>
-                                   <div class="col-sm-7">
-                                       <div class="form-group">
-                                           <label>Employment Status</label>
-                                           <select class="form-control" name="Employment" required>
-                                               <option value="">Choose...</option>
-                                               <option value="Employed">Employed</option>
-                                               <option value="Fresher">Fresher</option>
-                                               <option value="Student">Student</option>
-
-                                           </select>
-                                       </div>
-                                   </div>
-                                   <div class="col-sm-12">
-                                       <div class="form-group">
-                                           <label>Name of College / Organisation</label>
-                                           <input type="Text" class="form-control" name="Organization"
-                                                  placeholder="College / Organization" required>
-                                       </div>
-                                   </div>
-                                   <div class="col-sm-12">
-                                       <div class="form-group">
-                                           <label>About you</label>
-                                           <input type="Text" class="form-control" name="About"
-                                                  placeholder="About You (optional)">
-                                       </div>
-                                   </div>
-                                   <div class="col-sm-12">
-                                       <div class="form-group">
-                                           <label>From where did you learn about Self Tech Mastery Workshop ?</label>
-                                           <select class="form-control" name="How_Learn_STM">
-                                               <option value="">Choose...</option>
-                                               <option value="Friends">Friends</option>
-                                               <option value="Facebook">Facebook</option>
-                                               <option value="Whatsapp Group">Whatsapp Group</option>
-
-                                           </select>
-                                       </div>
-                                   </div>
-                               </div>
-
-
-                               <div class="text-center top-space">
-                                   <button type="submit" id="reserve-btn" class="btn btn-success btn-lg">Reserve My
-                                       Seat
-                                   </button>
-
-                               </div>
-                           </form>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
+       
 
 
        <a href="#" id="mobile-menu-trigger"><i class="fa fa-bars"></i></a>
@@ -4166,7 +4076,7 @@ margin: auto;" data-toggle="modal" data-target="#register-now">Enroll Now</a>
             </div>
 
             <div class="text-center mt-5 mb-5">
-               <button class="btn col-md-6" style="background-color: #5eb767;">ENROLL NOW</button>
+               <button class="btn col-md-6" style="background-color: #5eb767;" onclick="paymentprocess()">ENROLL NOW</button>
 
             </div>
 
@@ -4303,59 +4213,11 @@ https://dc.ads.linkedin.com/collect/?pid=530929&fmt=gif
         $(this).addClass("active");
     });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
-<script>
-    $("#register_form").validate({
-        rules: {
-            Name: {
-                required: true,
-                minlength: 4
-            },
-            Mobile: {
-                minlength: 10,
-                maxlength: 10
-            },
-            Year_Graduation: {
-                number: true,
-                range: [2010, 2024]
 
-            },
-            Gender: {
-                required: true
-            }
-        },
-        messages: {
-            Mobile: "Enter valid mobile number",
-            Year_Graduation: "Enter valid year (2010-2023)",
-            Gender: "Select Gender"
-        }
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    })
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby7QF8oaVeGe0OLQMUJCMiT7i6TveToq_X7VLKLs0Pg7wuZaZY/exec'
-    const form = document.forms['Register'];
-    form.addEventListener('submit', e => {
 
-        e.preventDefault();
-        e.stopPropagation();
-
-        if ($("#register_form").valid()) {
-            $("#reserve-btn").text("Submitting...")
-            fetch(scriptURL, {method: 'POST', body: new FormData(form)},)
-                .then(response => {
-                    console.log(response)
-
-                    window.location.href = "success/success.html"
-
-                })
-                .catch(error => console.error('Error!', error.message))
-        } else {
-            return false
-        }
-    })
-</script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
 <script type="text/javascript" src="js/payment.js"></script>
 </body>
