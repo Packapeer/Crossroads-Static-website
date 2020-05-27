@@ -4507,7 +4507,7 @@ p {
 #mobile-menu-trigger {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 0.90em;
+  font-size: 0.75em;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: none;
@@ -4522,7 +4522,7 @@ p {
 
 #menu-wrap nav ul li.enroll a,
 #mobile-menu-trigger {
-  background: #14bf69;
+  background: #16d072;
   color: #fff;
   padding: 1.41666666666667em 20px;
   
@@ -5361,13 +5361,7 @@ a.audio-control {
 
 /****************************************First online accountability course****************************************/
 
-#first-oac p {
-  font-size: 1.12em;
-  line-height: 1.167;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #444444;
-}
+
 
 #first-oac {
   background-image: url(../images/first-oac-bg.jpg);
@@ -5376,6 +5370,7 @@ a.audio-control {
   padding: 1em 0 1.5em;
   background-repeat: no-repeat;
   height: 100vh;
+  
 }
 
 #first-oac .inner-container {
@@ -5413,15 +5408,15 @@ a.audio-control {
 
 /* **************************************Responsive************************************** */
 
-@media only screen and (max-width: 1220px) {
-  #first-oac p {
-    font-size: 1.09em;
+@media (min-width: 768px) {
+  #first-oac p{
+    font-size:10em;
   }
 }
 
-@media only screen and (max-width: 980px) {
-  #first-oac p {
-    font-size: 1em;
+@media (min-width: 576px) {
+  #first-oac p{
+    font-size:2em;
   }
 }
 
@@ -7545,7 +7540,7 @@ blockquote .quote-right {
 
 .pricing-boxes {
   position: relative;
-  background: #fff;
+  
   width: 1800px;
   margin: 0 auto;
   max-width: 100%;
@@ -17246,17 +17241,17 @@ blockquote .quote-right {
 }
 
 #weekly-modules header h3 {
-  text-align: center;
-  height: 100%;
+  /* text-align: center; */
+  /* height: 100%; */
   font-family: 'Bebas Neue';
-  font-size: 18px;
+  /* font-size: 18px; */
   margin: 0;
   line-height: 1;
 }
 
-#weekly-modules header h3 span {
+#weekly-modules header h3 {
   font-size: 2em;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 #weekly-modules .text-box-inner p {
@@ -17347,7 +17342,7 @@ blockquote .quote-right {
 }
 
 #weekly-modules .module-6 {
-  background-image: url(../images/module-6-bg.jpg);
+  background-image: url(../images/new/Exclusive_Tickets.jpg);
 }
 
 #weekly-modules .module-7 {
@@ -17860,3 +17855,146 @@ h3.you-get{
   color:inherit;
   text-decoration: none;
 }
+
+.text-para-1{
+  font-family: "Raleway" , sans-serif;
+}
+
+.rectangle-list li{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  *padding: .4em;
+  margin: .5em 0 .5em 2.5em;
+  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+
+
+
+
+.rectangle-list li:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #bd1a20;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rectangle-list li:after{
+  position: absolute;
+  content: '';
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  transition: all .3s ease-out;
+}
+
+.rectangle-list li:hover:after{
+  left: -.5em;
+  border-left-color: #bd1a20;
+}
+ol{
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rectangle-list ol{
+  
+    display: table;
+    margin: 0 auto;
+  
+}
+
+
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+font-weight: 600;
+}
+
+.card img{
+position: absolute;
+top: 20px;
+right: 15px;
+max-height: 120px;
+}
+
+.card-1{
+background-image: url(/images/book-new.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100px;
+}
+
+.card-2{
+ background-image: url(/images/tech-support.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100px;
+}
+
+.card-3{
+ background-image: url(/images/accountability.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100px;
+}
+
+.card-4{
+  background-image: url(/images/couch.webp);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+  }
+  
+  .card-5{
+   background-image: url(/images/capacity-building.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+  }
+  
+  .card-6{
+   background-image: url(/images/prio.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 90px;
+  }
+
+@media(max-width: 990px){
+.card{
+  margin: 20px;
+}
+} 
+
+
