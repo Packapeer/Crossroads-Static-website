@@ -43,6 +43,20 @@
     <meta property="og:url" content="">
     <meta property="og:site_name" content="Self Tech Master">
     <meta property="og:image" content="">
+    <style>
+         .btn{
+             
+            }
+
+
+         .btn :hover{
+               background-color: #16d072;
+               }
+    </style>
+
+
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -138,26 +152,31 @@
 </div>
 <![endif]-->
 
-<!-- Modal -->
-<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-   <div class="modal-dialog modal-dialog-centered" role="document">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
+<!--modal-->
+
+<div class="modal fade modal-fullscreen  footer-to-bottom" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog animated zoomInLeft">
+       <div class="modal-content">
+           <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h4 class="modal-title">Modal title</h4>
+
+           </div>
+           <div class="modal-body">
+            <iframe src="form/index.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+   Your browser doesn't support iframes
+</iframe>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>
+           </div>
        </div>
-       <div class="modal-body">
-         ...
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-         <button type="button" class="btn btn-primary">Save changes</button>
-       </div>
-     </div>
+       <!-- /.modal-content -->
    </div>
- </div>
+   <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 
 <div class="fixed-header">
    <!-- ** Bonus Expires Section ** -->
@@ -201,11 +220,7 @@
        </div>
        <nav>
            <ul id="main-menu" class="clearfix">
-               <!--<li><a href="#first-oac" class="scroller">what is this?</a></li>
-               <li><a href="#start-podcast" class="scroller">why join?</a></li>
-               <li><a href="#many-more" class="scroller">testimonials</a></li>
-               <li><a href="#burning-desire" class="scroller">what you'll get</a></li>
-               <li><a href="#faq" class="scroller">faq's</a></li>-->
+              
                <li class="enroll"><a onclick="paymentprocess()" >enroll
                    now</a></li>
            </ul>
@@ -282,10 +297,10 @@
    <img class="intro-btm-bg" src="images/header-bottom-triangle.jpg" alt="" class="bottom-bg" width="100%">
     <div class="container ">
         <div class="grid-12">
-               <div class="logo">
-                  <img src="images/main-logo-crossroads.jpg"  class="img-fluid mt-5">
+               <div class="logo text-center">
+                  <img src="images/main-logo-crossroads.jpg" style="max-width: 50%;" class="img-fluid mt-5">
                </div>
-               <p class="text-left text-md-center mt-5 text-uppercase font-weight-bold" >1 Year Exclusive Membership Program</p>
+               <h1 class="text-center mt-5 text-uppercase display-4 " style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 10vmin;color: black;" >1 Year <span style="color:#bd302b;">Exclusive</span> Membership Program</h1>
                <p class="text-left text-md-center mt-5 text-uppercase font-weight-bold" >A World Class Online Program With Dedicated Support </p>
                <p class="text-left text-md-center mt-5 text-uppercase font-weight-bold" >Learn a new tech domain in just a few weeks...<br>Even if You're Starting From Scratch</p>
          </div>
@@ -464,7 +479,7 @@
                                 <div class="col-md-4 icon-box">
                                     <div class="image-box"><img class="lazy" alt="" src="images/books-icon.png"
                                                                 style="display: block;"></div>
-                                    <p>60+ hours of <br>Intensive in-house Training</p>
+                                    <p>60+ hours of <br>Intensive Online Training </p>
                                 </div>
                                 <div class="col-md-4 icon-box">
                                     <div class="image-box"><img class="lazy" alt=""
@@ -1594,10 +1609,9 @@
                                       
                                       </h2>
                                   </header>
-                                  <p>Throughout this year long membership, an exclusive member should get access to a minimum of 6 high quality technical tutorial videos in Malayalam language that could help them build an awesome career in the IT sector.</p>
-                                  <p>The six tutorials that are planned to release this year are:-</p>
-                                  <ul class="text-left text-md-center">
-                                      
+                                  <p style="margin-bottom: 5px;">Throughout this year long membership, an exclusive member should get access to a minimum of 6 high quality technical tutorial videos in Malayalam language that could help them build an awesome career in the IT sector.</p>
+                                  <p style="margin-bottom: 5px;padding-top: 5px;">The six tutorials that are planned to release this year are:-</p>
+                                  <ul class="text-left">
                                            <li>Fundamentals of programming including OOPs concept & Project</li>
                                            <li>Web Designing using HTML, CSS, Javascript, Bootstrap including Project & Live Web Hosting</li>
                                            <li>Fundamentals of GIT. Version controlling, remote working & open source collaboration</li>
@@ -4048,7 +4062,7 @@ margin: auto;" data-toggle="modal" data-target="#register-now">Enroll Now</a>
               <div class="col-md-4">
                 <div class="card card-3">
                   <h3>Access to a Vibrant Community of Techies</h3>
-                  
+                  <br>
                 </div>
               </div>
             </div>
@@ -4056,7 +4070,7 @@ margin: auto;" data-toggle="modal" data-target="#register-now">Enroll Now</a>
               <div class="col-md-4">
                <div class="card card-4">
                  <h3>Exclusive Live Q&A Sessions For Career Guidance</h3>
-                 <br>
+                 
                </div>
              </div>
              <div class="col-md-4">
@@ -4067,16 +4081,17 @@ margin: auto;" data-toggle="modal" data-target="#register-now">Enroll Now</a>
              </div>
              <div class="col-md-4 ">
                <div class="card card-6">
-                  <br>
-                  <br>
+                  
+                  
                  <h3>Priority Tickets to RoadMap Events</h3>
                  <br>
+                 
                </div>
              </div>
             </div>
 
             <div class="text-center mt-5 mb-5">
-               <button class="btn col-md-6" style="background-color: #5eb767;" onclick="paymentprocess()">ENROLL NOW</button>
+               <button class="btn btn-enroll-2 col-md-6" style="background-color: #16d072;color: #fff;padding: .8rem .75rem;" onclick="paymentprocess()">ENROLL NOW</button>
 
             </div>
 
@@ -4130,15 +4145,13 @@ margin: auto;" data-toggle="modal" data-target="#register-now">Enroll Now</a>
 </div>               ** Footer ** -->
 <footer id="footer" >
     <div class="container">
-        <h2>Contact</h2>
+        <h5>Contact</h5>
         <div class="grid-12" >
-            <h6><i class="fa fa-envelope"></i><a href="mailto:talk@packapeer.com" class="text-deco"> talk@packapeer.com</a></h6>
-            <h6><i class="fa fa-phone"></i> <a href="tel:+919995471353" class="text-deco"> +91 - 9995471353</a></h6>
-            <h6><i class="fa fa-phone"></i> <a href="tel:+919995866476" class="text-deco"> +91 - 9995866476</a></h6>
-            <br>
-            <p class="mt-1" style="margin-bottom: 0;">Copyright &copy;Packapeer Academy Pvt Ltd <script>document.write(new Date().getFullYear());</script></p>
-
-
+            <p class="mb-0" style="font-weight: 200;">Any quires please write to</i><a href="mailto:talk@packapeer.com" class="text-deco"> talk@packapeer.com</a></p>
+            <!-- <p class="mb-0"><i class="fa fa-phone"></i> <a href="tel:+919995471353" class="text-deco"> +91 - 9995471353</a></p>
+            <p class="mb-0"><i class="fa fa-phone"></i> <a href="tel:+919995866476" class="text-deco"> +91 - 9995866476</a></p> -->
+            
+            <p class="mt-1 mb-0" style="font-weight: 200;font-size: 0.7em;">Copyright &copy;Packapeer Academy Pvt Ltd <script>document.write(new Date().getFullYear());</script></p>
         </div>
         <!-- end .grid-12 -->
     </div>

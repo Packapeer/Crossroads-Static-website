@@ -14,9 +14,9 @@ function paymentprocess(){
         "handler": function (response){
 
             $('#form-modal').modal('toggle');
-            alert(response.razorpay_payment_id);
-            alert(response.razorpay_order_id);
-            alert(response.razorpay_signature)
+            // alert(response.razorpay_payment_id);
+            // alert(response.razorpay_order_id);
+            // alert(response.razorpay_signature)
         },
         "prefill": {
             "name": "",
@@ -27,7 +27,7 @@ function paymentprocess(){
             "address": ""
         },
         "theme": {
-            "color": "#000"
+            "color": "#528FF0"
         }
     };
     var propay = new Razorpay(options);

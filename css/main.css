@@ -4835,7 +4835,7 @@ a.audio-control {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
-  z-index: 9999999;
+  z-index: 9;
   position: absolute;
   top: 10px;
   right: 0;
@@ -17399,9 +17399,10 @@ blockquote .quote-right {
 
 #weekly-modules .text-box-inner ul li {
   padding: 0 0 0 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #444444;
-  font-size: 1em;
+  font-size: 0.8em;
+  line-height: 1em;
 }
 
 #weekly-modules .text-box {
@@ -17860,67 +17861,8 @@ h3.you-get{
   font-family: "Raleway" , sans-serif;
 }
 
-.rectangle-list li{
-  position: relative;
-  display: block;
-  padding: .4em .4em .4em .8em;
-  *padding: .4em;
-  margin: .5em 0 .5em 2.5em;
-  
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: all .3s ease-out;
-}
 
 
-
-
-
-.rectangle-list li:before{
-  content: counter(li);
-  counter-increment: li;
-  position: absolute;
-  left: -2.5em;
-  top: 50%;
-  margin-top: -1em;
-  background: #bd1a20;
-  height: 2em;
-  width: 2em;
-  line-height: 2em;
-  text-align: center;
-  font-weight: bold;
-}
-
-.rectangle-list li:after{
-  position: absolute;
-  content: '';
-  border: .5em solid transparent;
-  left: -1em;
-  top: 50%;
-  margin-top: -.5em;
-  transition: all .3s ease-out;
-}
-
-.rectangle-list li:hover:after{
-  left: -.5em;
-  border-left-color: #bd1a20;
-}
-ol{
-  counter-reset: li;
-  list-style: none;
-  *list-style: decimal;
-  font: 15px 'trebuchet MS', 'lucida sans';
-  padding: 0;
-  margin-bottom: 4em;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
-}
-
-.rectangle-list ol{
-  
-    display: table;
-    margin: 0 auto;
-  
-}
 
 
 
@@ -17931,6 +17873,7 @@ ol{
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 padding: 14px 80px 18px 36px;
 cursor: pointer;
+font-family: 'Bebas Neue';
 }
 
 .card:hover{
@@ -17996,5 +17939,57 @@ background-image: url(/images/book-new.png);
   margin: 20px;
 }
 } 
+
+
+.modal.modal-fullscreen .modal-dialog,
+.modal.modal-fullscreen .modal-content {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.modal.modal-fullscreen .modal-dialog {
+  margin: 0;
+  width: 100%;
+  animation-duration:0.6s;
+}
+.modal.modal-fullscreen .modal-content {
+  border: none;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: inherit;
+  -moz-box-shadow: inherit;
+  -o-box-shadow: inherit;
+  box-shadow: inherit;
+  /* change bg color below */
+ /* background:#1abc9c; */
+}
+.modal.modal-fullscreen.force-fullscreen {
+  /* Remove the padding inside the body */
+}
+.modal.modal-fullscreen.force-fullscreen .modal-body {
+  padding: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-header,
+.modal.modal-fullscreen.force-fullscreen .modal-footer {
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-header {
+  top: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-footer {
+  bottom: 0;
+}
+.btn{
+  padding: .8rem .75rem;
+}
+
+
+.btn:hover{
+  background-color: #16d072;
+}
 
 
