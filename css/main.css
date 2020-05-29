@@ -15846,8 +15846,8 @@ blockquote .quote-right {
 /* =========================================Footer========================================= */
 
 #footer {
-  background: #273038;
-  color: #838e98;
+  background: #eff1f2;
+  color: #000000;
   padding: 1em 0 0.5em 0;
   letter-spacing: 0.04em;
 }
@@ -16072,7 +16072,7 @@ blockquote .quote-right {
   #five-secrets-first .text-box-wrapper {
     position: relative;
   }
-  .you-podcast-topimg {}
+  
   #start-podcast .million-listners h3 {
     margin: 0;
     padding: 0.5em 0 .5em;
@@ -17861,84 +17861,6 @@ h3.you-get{
   font-family: "Raleway" , sans-serif;
 }
 
-
-
-
-
-
-.card{
-  border-radius: 4px;
-  background-color: #ececec;
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-padding: 14px 80px 18px 36px;
-cursor: pointer;
-font-family: 'Bebas Neue';
-}
-
-.card:hover{
-   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-
-.card h3{
-font-weight: 600;
-}
-
-.card img{
-position: absolute;
-top: 20px;
-right: 15px;
-max-height: 120px;
-}
-
-.card-1{
-background-image: url(/images/book-new.png);
-    background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100px;
-}
-
-.card-2{
- background-image: url(/images/tech-support.png);
-    background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100px;
-}
-
-.card-3{
- background-image: url(/images/accountability.png);
-    background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100px;
-}
-
-.card-4{
-  background-image: url(/images/couch.webp);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100px;
-  }
-  
-  .card-5{
-   background-image: url(/images/capacity-building.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100px;
-  }
-  
-  .card-6{
-   background-image: url(/images/prio.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 90px;
-  }
-
-@media(max-width: 990px){
-.card{
-  margin: 20px;
-}
-} 
 
 
 .modal.modal-fullscreen .modal-dialog,

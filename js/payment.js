@@ -13,6 +13,8 @@ function paymentprocess(){
         //"order_id": "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
         "handler": function (response){
 
+            conversion();
+
             $('#form-modal').modal('toggle');
             // alert(response.razorpay_payment_id);
             // alert(response.razorpay_order_id);
@@ -32,4 +34,13 @@ function paymentprocess(){
     };
     var propay = new Razorpay(options);
     propay.open();
+}
+
+function conversion(){
+    gtag('event', 'conversion', {
+        'send_to': 'AW-864063743/0vM6CL7849EBEP-hgpwD',
+        'value': 1.0,
+        'currency': 'USD',
+        'transaction_id': ''
+    });
 }
