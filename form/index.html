@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CrossRoads | User Data Collection Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Event snippet for Exclusive Membership Purchase conversion page -->
+    
+        
+    
+  
+
+</head>
+<body class="contact-page">
+<div class="page-header">
+   
+
+    <div class="page-header-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 style="font-size: 2.5em; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><span style="color: #bd1a20;">Exclusive</span> Members Data Collection</h1>
+                    </header><!-- .entry-header -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .page-header-overlay -->
+</div><!-- .page-header -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="breadcrumbs">
+                <ul class="flex flex-wrap align-items-center p-0 m-0">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li>Members</li>
+                </ul>
+            </div><!-- .breadcrumbs -->
+        </div><!-- .col -->
+    </div><!-- .row -->
+
+    <form id="form" class="needs-validation" action="https://script.google.com/a/packapeer.com/macros/s/AKfycbxCj2pug63I2uqL9jcclE26vsWKzglIx5HEsi-v/exec" method="POST" novalidate>
+
+        <div class="row justify-content-between">
+
+            <div class="container" style="margin-top: -87px;padding-bottom: 20px;">
+                <div class=" col-md-12">
+                    <div class="contact-form">
+
+
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Full Name" name="name" id="name" required>
+                                    <div class="invalid-feedback">
+                                        Please enter your fullname.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+
+                                    <input type="text" class="form-control" placeholder="Telegram Id" name="tgid" id="tgid" required>
+                                    <div class="invalid-feedback">
+                                        Please enter your telegaram id.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Contact Number" name="contact_no" id="contact_no" required>
+                                    <div class="invalid-feedback">
+                                        Please enter your Phonenumber.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Alternate Number (if any)" name="alt_contact_no" id="alt_contact_no" >
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="gender" class="form-control" id="gender" required>
+                                        <option disabled selected hidden value="">Gender</option>
+                                        <option value="Male" >Male</option>
+                                        <option value="Female" >Female</option>
+                                    </select>
+                                    <div class="select-dropdown" required></div>
+                                    <div class="invalid-feedback">
+                                        Please Select The Gender.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <select name="status" class="form-control" onchange="(this.selectedIndex==3)?document.getElementById('status_2').style.display='block':document.getElementById('status_2').style.display='none';" id="status" required>
+
+                                        <option disabled selected hidden value="" >Student/Employee</option>
+                                        <option value="Student" value="" >Student</option>
+                                        <option value="Employee" >Employee</option>
+                                        <option value="Other">Other</option>
+
+
+
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                    <div class="invalid-feedback">
+                                        Please select your current status.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div>
+                                <input type="text" class="form-control" style="display: none;" class="col-md-12" placeholder="Your Current Status" name="status_2" id="status_2">
+                            </div>
+
+                            <div>
+                                <input type="email"  class="col-md-12 form-control" placeholder="Your Email" name="email" id="email" required>
+                                <div class="invalid-feedback">
+                                    Please enter your email id.
+                                </div>
+                            </div>
+                            <div>
+                                <textarea class="col-md-12 form-control" placeholder="Address" rows="4" name="address" id="address" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your address.
+                                </div>
+                            </div>
+                            <div id="data"></div>
+                            <div>
+                                <label for="uploadfile" >Personal ID Proof (AADHAR / Voter ID / Driving Licence / Passport)</label>
+                            <input id="uploadfile"  name="uploadfile" type="file" class="col-md-12 file form-control" data-browse-on-zone-click="true" style="margin-top: 0px;" required>
+                                <div class="invalid-feedback">
+                                    Please select your personal id(image file is recommended).
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <textarea class="col-md-12 form-control mb-3" placeholder="Tell Us About You" rows="8" id="tellus" name="tellus" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please tell us about yourself.
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div><!-- .contact-info -->
+                 </div>
+                <div class="col-md-12">
+
+                    <button type="submit" id="btn-one" class="btn btn-success btn-block">Submit</button>
+                </div>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </form><!-- .container -->
+</div>
+
+
+
+
+<footer class="site-footer bg-light">
+
+
+
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    Copyright &copy;Packapeer Academy Pvt Ltd <script>document.write(new Date().getFullYear());</script>
+                </div>
+
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .footer-bar -->
+</footer><!-- .site-footer -->
+
+<script type='text/javascript' src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script type='text/javascript' src='js/custom.js'></script>
+<script>
+
+    $('#uploadfile').on("change", function() {
+        var file = this.files[0];
+        var fr = new FileReader();
+        fr.fileName = file.name;
+        fr.onload = function(e) {
+            e.target.result
+            html = '<input type="hidden" name="data" value="' + e.target.result.replace(/^.*,/, '') + '" >';
+            html += '<input type="hidden" name="mimetype" value="' + e.target.result.match(/^.*(?=;)/)[0] + '" >';
+            html += '<input type="hidden" name="filename" value="' + e.target.fileName + '" >';
+            $("#data").empty().append(html);
+        }
+        fr.readAsDataURL(file);
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
