@@ -5,7 +5,7 @@ function paymentprocess(){
 
     var options = {
         "key": "rzp_test_EjwEX0eJ90FIOx", // Enter the Key ID generated from the Dashboard
-        "amount": 5000*100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        "amount": 3000*100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         "currency": "INR",
         "name": "CROSSROADS",
         "description": "Exclusive Membership For One Year",
