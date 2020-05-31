@@ -5369,7 +5369,7 @@ a.audio-control {
   background-position: top;
   padding: 1em 0 1.5em;
   background-repeat: no-repeat;
-  height: 100vh;
+  
   
 }
 
@@ -17924,6 +17924,33 @@ h3.you-get{
     margin: 0 0 43px;
 }
 
+#grid-icon-list{
+  background-image: url(../images/burning-desire-img.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center top;
+  
+}
+#grid-icon-list{
+  font-size: 1.1em;
+  font-weight: 900;
+}
+.icon-element-grid{
+  margin: 1.5em 0 1.5em 0;
+}
+.image-div{
+  margin-bottom: 1em;
+}
+.you-get-text{
+  color: #5eb767;
+  font-size: 2.5vmax;
+  font-weight: 400;
+  margin: 1em 0 1em 0 ;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 /* **************************************Responsive************************************** */
 
 @media only screen and (min-width: 1220px) {
@@ -17944,6 +17971,12 @@ h3.you-get{
   
 }
 @media only screen and (min-width: 760px) {
+  #grid-icon-list{
+    height: 100vmin;
+  }
+  #first-oac{
+    height: 100vmin;
+  }
   
   
 }
@@ -17978,6 +18011,7 @@ h3.you-get{
   }
 
 }
+
 
 
 
