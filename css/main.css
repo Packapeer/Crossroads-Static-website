@@ -17973,8 +17973,8 @@ h3.you-get{
 @media only screen and (max-width: 360px){
 
   .module-3 h2{
-    margin-left: 34px;
-    font-size: 2em;
+    margin-left: 34px !important;
+    font-size: 2em !important;
   }
 
 }
