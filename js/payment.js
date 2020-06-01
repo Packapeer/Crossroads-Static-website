@@ -37,10 +37,5 @@ function paymentprocess(){
 }
 
 function conversion(){
-    gtag('event', 'conversion', {
-        'send_to': 'AW-864063743/0vM6CL7849EBEP-hgpwD',
-        'value': 1.0,
-        'currency': 'USD',
-        'transaction_id': ''
-    });
+    
 }
