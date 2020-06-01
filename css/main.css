@@ -18022,6 +18022,37 @@ h3.you-get{
 
 }
 
+/* Portrait iphone 7plus*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .weekly-modules-title h3{
+      font-size: 3em !important;
+
+    }
+    #weekly-modules .weekly-modules-title:before {
+      
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      border-left: 30px solid #d93233;
+      top:70%;
+      
+    }
+    #weekly-modules .weekly-modules-title:after {
+    
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      border-right: 30px solid #d93233;
+      position: absolute;
+      top: 70%;
+      
+    }
+    
+
+}
+
 
 
 
