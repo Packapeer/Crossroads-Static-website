@@ -17988,6 +17988,12 @@ h3.you-get{
   }
   
 }
+@media only screen and (min-width: 480px){
+  .mobile-carousel{
+    display: none;
+  }
+
+}
 
 @media only screen and (max-width: 479px) {
   #testimonial-head{
@@ -18001,6 +18007,10 @@ h3.you-get{
     padding-bottom: 10px;
 
   }
+  .desk-carousel{
+    display: none;
+  }
+  
 }
 
 @media only screen and (max-width: 360px){
