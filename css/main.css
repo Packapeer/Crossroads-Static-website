@@ -17271,7 +17271,7 @@ blockquote .quote-right {
 }
 
 #weekly-modules .module-2 {
-  background-image: url(../images/module-2-bg.jpg);
+  /* background-image: url(../images/module-2-bg.jpg); */
   position: relative;
   padding-bottom: 2em;
 }
@@ -17301,7 +17301,7 @@ blockquote .quote-right {
 }
 
 #weekly-modules .module-3 {
-  background-image: url(../images/module-2-next-bg.jpg);
+  /* background-image: url(../images/module-2-next-bg.jpg); */
   padding: 5em 0 0;
   position: relative;
   z-index: 4;
