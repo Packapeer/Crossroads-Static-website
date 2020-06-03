@@ -15,7 +15,7 @@ function paymentprocess(){
 
             // conversion();
 
-            window.location = "../form/a6a2729cbf6bcadce577a31f7f76201d5ce63c57d6c53318000d67714bb354ef.html";
+            window.location = "/../form/a6a2729cbf6bcadce577a31f7f76201d5ce63c57d6c53318000d67714bb354ef.html";
 
             
 
