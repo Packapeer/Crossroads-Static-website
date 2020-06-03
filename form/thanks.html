@@ -28,33 +28,43 @@
       <script>
     
     </script>
+    <script>
+        $(window).on('load',function(){
+        $('#Thanks').modal('show');
+    });
+
+    </script>
+    
+    
       
 </head>
 <body>
 
-    <div class="modal fade modal-fullscreen  footer-to-bottom" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog animated zoomInLeft">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                       <h4 class="modal-title">Modal title</h4>
-     
-                </div>
-                <div class="modal-body">
-                 <iframe src="form/index.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:9;">
-        Your browser doesn't support iframes
-     </iframe>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Thanks" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+          
+            <div class="image-modal text-center">
+                <img class="img-fluid" src="../images/check.png">
             </div>
-            <!-- /.modal-content -->
+            <div class="text-center col-12">
+                <h1>Thank you! </h1>
+                <p>Your Submission is Received and Please Take a Screenshot of Payment Receipt and Sent To this Number <a href="https://api.whatsapp.com/send?phone=9867562121&text=Hello,%20I%20am%20registered%20for%20Exclusive%20Membership" style="text-decoration: none;">8848772811<img src="https://img.icons8.com/color/48/000000/whatsapp.png" width="8%"/></a>.Check Your mail for Payment Receipt.</p>
+            </div>
+
+
         </div>
-        <!-- /.modal-dialog -->
-     </div>
-     <!-- /.modal -->
+        
+      </div>
+    </div>
+  </div>
      
      <div class="fixed-header">
         <!-- ** Bonus Expires Section ** -->
@@ -114,7 +124,7 @@
                         
                          <div style="display:block">
                            <div class="embed-responsive embed-responsive-16by9 mb-5">
-                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yEAy2vJUgYw?autoplay=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yEAy2vJUgYw?autoplay=0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                            </div>
                          </div>
        
@@ -135,6 +145,22 @@
        
     </div>
     <!-- end #intro -->
+    <!--** Footer ** -->
+<footer id="footer" >
+    <div class="container">
+        <h5>Contact</h5>
+        <div class="grid-12" >
+            <p class="mb-0" style="font-weight: 200;">Any quires please write to</i><a href="mailto:talk@packapeer.com" class="text-deco"> talk@packapeer.com</a></p>
+            <!-- <p class="mb-0"><i class="fa fa-phone"></i> <a href="tel:+919995471353" class="text-deco"> +91 - 9995471353</a></p>
+            <p class="mb-0"><i class="fa fa-phone"></i> <a href="tel:+919995866476" class="text-deco"> +91 - 9995866476</a></p> -->
+            
+            <p class="mt-1 mb-0" style="font-weight: 200;font-size: 0.7em;">Copyright &copy;Packapeer Academy Pvt Ltd <script>document.write(new Date().getFullYear());</script></p>
+        </div>
+        <!-- end .grid-12 -->
+    </div>
+    <!-- end .container -->
+</footer>
+<!-- end #footer -->
 
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 
