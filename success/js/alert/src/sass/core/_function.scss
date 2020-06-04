@@ -1,6 +1,0 @@
-@charset "UTF-8";
-
-
-@function vw($px) {
-    @return ($px / $vewport-width) * 100vw;
-}
