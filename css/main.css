@@ -24,7 +24,7 @@
 MIT License
 github.com/necolas/normalize.css
 ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap'); */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
